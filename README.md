@@ -1,4 +1,4 @@
-# Docker_project
+# Docker-WebApp
 A docker project launching a wordpress server  with mysql as databse using the concept of conatiners.
 
 ---
