@@ -15,11 +15,15 @@ Editor will open in it type
 baseurl=https://download.docker.com/linux/centos/7/x86_64/stable/
 gpgcheck=0
 
+--- 
+
 Step 2: Do yum install docker-ce
 
 yum install docker-ce
 
 We have succesfully installed docker, now we insatll Docker compose in our system
+
+---
 
 Install Docker Compose by using these commands
 
@@ -33,6 +37,8 @@ docker-compose --version
 
 Now we download the docker-compose.yml from the repo and place it in the /mycompose directory
 
+---
+
 mkdir /mycompose
 cd /mycompos
 ls
@@ -43,11 +49,15 @@ docker-compose up
 
 For the first time , it will take some time It will download the wordpress docker image, mysql docker image and create docker After the first setup, we can launch wordpress in one second by using the docker-compose up
 
+---
+
 To start docker-compose in background
 
 docker-compose up -d
 
 To stop docker-compose
+
+---
 
 docker-compose stop
 © 2022 GitHub, Inc.
